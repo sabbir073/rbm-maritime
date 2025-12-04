@@ -37,15 +37,6 @@ const BlogSection = (props) => {
                                             <h2><Link onClick={ClickHandler} href="/blog-single/[slug]" as={`/blog-single/${blog.slug}`}>{blog.title}</Link></h2>
                                         </div>
                                         <div className="wpo-blog-content-btm">
-                                            <div className="wpo-blog-content-btm-left">
-                                                <div className="wpo-blog-content-btm-left-img">
-                                                    <Image src={blog.authorImg} alt=""/>
-                                                </div>
-                                                <div className="wpo-blog-content-btm-left-text">
-                                                    <h4><Link onClick={ClickHandler} href="/blog-single/[slug]" as={`/blog-single/${blog.slug}`}>{blog.author}</Link></h4>
-                                                    <span>{blog.authorTitle}</span>
-                                                </div>
-                                            </div>
                                             <div className="wpo-blog-content-btm-right">
                                                 <span>{blog.create_at}</span>
                                             </div>

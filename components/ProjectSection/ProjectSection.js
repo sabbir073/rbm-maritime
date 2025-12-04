@@ -32,7 +32,7 @@ const ProjectSection = (props) => {
                 <div className="row">
                     <div className="col col-xs-12 sortable-gallery">
                         <div className="wpo-gallery-container">
-                            {Projects.slice(0,4).map((project, pritem) => (
+                            {Projects.map((project, pritem) => (
                                 <div className="grid" key={pritem}>
                                     <div className="wpo-gallery-item">
                                         <Link onClick={ClickHandler} href='/project-single/[slug]' as={`/project-single/${project.slug}`}>

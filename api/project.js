@@ -1,16 +1,10 @@
-import pimg from '/public/images/gallery/img-1.jpg'
-import pimg2 from '/public/images/gallery/img-2.jpg'
-import pimg3 from '/public/images/gallery/img-3.jpg'
 import pimg4 from '/public/images/gallery/img-4.jpg'
-import pimg5 from '/public/images/gallery/img-5.jpg'
-import pimg6 from '/public/images/gallery/img-6.jpg'
+import pimg2 from '/public/images/gallery/img-2.jpg'
 
-import pSimg from '/public/images/project-single/img-1.jpg'
-import pSimg2 from '/public/images/project-single/img-2.jpg'
-import pSimg3 from '/public/images/project-single/img-3.jpg'
 import pSimg4 from '/public/images/project-single/img-4.jpg'
-import pSimg5 from '/public/images/project-single/img-5.jpg'
-import pSimg6 from '/public/images/project-single/img-6.jpg'
+import opaImg from '/public/images/project-single/OPA.jpg'
+import layupImg from '/public/images/project-single/Lay up management.jpg'
+import technicalImg from '/public/images/project-single/technical mangement.jpg'
 
 import sSingleimg1 from '/public/images/project-single/2.jpg'
 import sSingleimg2 from '/public/images/project-single/3.jpg'
@@ -20,61 +14,51 @@ import sSingleimg2 from '/public/images/project-single/3.jpg'
 const Projects = [
     {
         Id: '1',
-        pImg:pimg,
-        pSImg:pSimg,
-        title: 'Ship Repair',
-        slug:'ship-repair',
-        description:'We are certified company. We provide best cleaning projects for you and your company Home projects and your Car.',
+        pImg:pimg4,
+        pSImg:pSimg4,
+        title: 'New Build Management',
+        slug:'new-build-management',
+        description:'RBM Maritime Ltd offer a wide array of technical services to shipowners, from conceptual designs, emission reduction solutions, project planning, new building supervision, dry-docking support and other services.',
         spImg1:sSingleimg1,
         spImg2:sSingleimg2,
     },
     {
         Id: '2',
-        pImg:pimg2,
-        pSImg:pSimg2,
-        title: 'Ship Manning',
-        slug:'ship-manning',
-        description:'We are certified company. We provide best cleaning projects for you and your company Home projects and your Car.',
+        pImg:opaImg,
+        pSImg:opaImg,
+        title: 'OPA (Owner Protecting Agent)',
+        slug:'opa-owner-protecting-agent',
+        description:'As your Owner Protecting Agent, we safeguard your interests throughout vessel operations. Our team ensures that all activities are conducted in accordance with your requirements and industry standards.',
         spImg1:sSingleimg1,
         spImg2:sSingleimg2,
     },
     {
         Id: '3',
-        pImg:pimg3,
-        pSImg:pSimg3,
-        title: 'Stores,Spares Supply',
-        slug:'stores-spares-supply',
-        description:'We are certified company. We provide best cleaning projects for you and your company Home projects and your Car.',
+        pImg:pimg2,
+        pSImg:pimg2,
+        title: 'Crew Sign On/Sign Off',
+        slug:'crew-sign-on-sign-off',
+        description:'We provide seamless crew sign on and sign off services, ensuring smooth transitions and operational continuity for your vessel. Our team handles all documentation and logistics professionally.',
         spImg1:sSingleimg1,
         spImg2:sSingleimg2,
     },
     {
         Id: '4',
-        pImg:pimg4,
-        pSImg:pSimg4,
-        title: 'Ship Survey',
-        slug:'ship-survey',
-        description:'We are certified company. We provide best cleaning projects for you and your company Home projects and your Car.',
+        pImg:layupImg,
+        pSImg:layupImg,
+        title: 'Lay-up Management',
+        slug:'lay-up-management',
+        description:'Professional lay-up management services ensuring your vessel is properly maintained during idle periods. We provide comprehensive care to protect your investment.',
         spImg1:sSingleimg1,
         spImg2:sSingleimg2,
     },
     {
         Id: '5',
-        pImg:pimg5,
-        pSImg:pSimg5,
-        title: 'Under Water Inspection',
-        slug:'under-water-inspection',
-        description:'We are certified company. We provide best cleaning projects for you and your company Home projects and your Car.',
-        spImg1:sSingleimg1,
-        spImg2:sSingleimg2,
-    },
-    {
-        Id: '5',
-        pImg:pimg6,
-        pSImg:pSimg6,
-        title: 'Bay pilotage (Kutubdia-Chattagram)',
-        slug:'bay-pilotage',
-        description:'We are certified company. We provide best cleaning projects for you and your company Home projects and your Car.',
+        pImg:technicalImg,
+        pSImg:technicalImg,
+        title: 'Technical Management',
+        slug:'technical-management',
+        description:'Expert technical management services to ensure your vessel operates at peak performance. Our experienced team handles all aspects of vessel maintenance and compliance.',
         spImg1:sSingleimg1,
         spImg2:sSingleimg2,
     },

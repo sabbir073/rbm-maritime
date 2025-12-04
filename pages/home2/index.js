@@ -7,9 +7,7 @@ import ServiceSection2 from '../../components/ServiceSection2/ServiceSection2';
 import Pricing from '../../components/Pricing/Pricing'
 import FunFact from '../../components/FunFact'
 import ProjectSection from '../../components/ProjectSection/ProjectSection';
-import Testimonial from '../../components/Testimonial'
 import Support from '../../components/Support'
-import BlogSection from '../../components/BlogSection'
 import Footer from '../../components/footer/Footer'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 
@@ -26,9 +24,7 @@ const HomePage2 = () => {
             <Pricing />
             <FunFact fnClass={'section-padding'} />
             <ProjectSection />
-            <Testimonial />
             <Support/>
-            <BlogSection/>
             <Footer />
             <Scrollbar />
         </Fragment>

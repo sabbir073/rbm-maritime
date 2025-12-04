@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'next/link'
-//import Logo from '/public/images/unnamed.jpg'
 import Projects from '../../api/project'
 import Services from '../../api/service'
 import Image from 'next/image'
@@ -20,31 +19,25 @@ const Footer = (props) => {
                         <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
                             <div className="widget about-widget">
                                 <div className="logo widget-title">
-                                    
+
                                 </div>
                                 <p>Delivering excellence in ship repair, supply provisions, and vessel management services. Ensuring safe, efficient, and reliable maritime operations globally. Contact us for comprehensive marine solutions tailored to your needs.</p>
                                 <ul>
                                     <li>
-                                        <Link onClick={ClickHandler} href="/">
+                                        <Link target='_blank' href="https://www.facebook.com/rbmmaritime">
                                             <i className="ti-facebook"></i>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link onClick={ClickHandler} href="/">
-                                            <i className="ti-twitter-alt"></i>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link onClick={ClickHandler} href="/">
-                                            <i className="ti-instagram"></i>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link onClick={ClickHandler} href="/">
-                                            <i className="ti-google"></i>
+                                        <Link target='_blank' href="https://wa.me/8801818130878777">
+                                            <i className="fa fa-whatsapp"></i>
                                         </Link>
                                     </li>
                                 </ul>
+                                <div className="mt-3">
+                                    <p><i className="fa fa-whatsapp"></i> WhatsApp: +880 1818-13087877</p>
+                                    <p><i className="fa fa-wechat"></i> WeChat: +880 1818-13087877</p>
+                                </div>
                             </div>
                         </div>
                         <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
@@ -54,13 +47,12 @@ const Footer = (props) => {
                                 </div>
                                 <div className="contact-ft">
                                     <ul>
-                                        <li><i className="fi flaticon-location"></i>506 Omar-Shajahan Tower (3rd floor), Shah Kabir Mazar Road, Azampur Railgate, Uttara, Dhaka-1230
-                                        </li>
-                                        
-                                        <li><i className="fi flaticon-phone-call"></i>+8801813-087877, +8801794-622066,
-+8801841-576804, +8801817-771022
-</li>
-                                        <li><i className="fi flaticon-send"></i>info@rbmbd.com </li>
+                                        <li><i className="fi flaticon-location"></i><strong>Chattogram:</strong> IIUC Tower (11th Floor), Plot #9, Agrabad C/A, Sheikh Mujib Road, Chittagong-4100</li>
+                                        <li><i className="fi flaticon-location"></i><strong>Dhaka:</strong> 506 Ar-Shajahan Tower (3rd floor), Shah Kabir Mazar Road, Azampur Railgate, Uttara, Dhaka-1230</li>
+                                        <li><i className="fi flaticon-phone-call"></i>+880 1818-13087877, +880 1841-576804, +880 1794-622066, +880 1894-442913, +880 1894-442918</li>
+                                        <li><i className="fi flaticon-send"></i>rbmmarineltd@gmail.com</li>
+                                        <li><i className="fi flaticon-send"></i>info@rbmbd.com</li>
+                                        <li><i className="fi flaticon-send"></i>cv@rbmbd.com (Seafarer CVs)</li>
                                     </ul>
                                 </div>
                             </div>

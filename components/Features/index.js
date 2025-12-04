@@ -11,8 +11,8 @@ const Features = (props) => {
      const featres = [
          {
             fIcon:prdimg1,
-            title:'Expert Solutions',
-            des:'Delivering comprehensive maritime solutions including ship repair, supply services, and pilotage. Trust us to keep your vessels operational and your business thriving.',
+            title:'Global Expertise',
+            des:'Our team is consisted of highly experienced maritime professional including Master mariner & Chief engineer, delivering comprehensive maritime solutions including crewing, training and technical management.',
          },
          {
             fIcon:prdimg2,
@@ -22,9 +22,9 @@ const Features = (props) => {
          {
             fIcon:prdimg3,
             title:'Efficiency and Safety',
-            des:'From underwater inspections to sludge removal, our wide range of marine services guarantees the safety, cleanliness, and efficiency of your vessels at all times.',
+            des:'We invest in ongoing education to ensure our crews are efficient and prepared for the future of the maritime industry. Our wide range of marine services guarantees the safety, cleanliness, and efficiency of your vessels at all times.',
          },
-         
+
      ]
 
 

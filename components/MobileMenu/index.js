@@ -152,12 +152,15 @@ const menus = [
         ]
     },
     {
+        id: 89,
+        title: 'Seafarer Jobs',
+        link: '/seafarer-jobs',
+    },
+    {
         id: 88,
         title: 'Contact',
         link: '/contact',
     }
-    
-    
 ]
 
 

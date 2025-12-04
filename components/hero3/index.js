@@ -25,85 +25,11 @@ const Hero3 = () => {
                 <div className="hero-wrapper">
                     <Slider {...settings}>
                         <div className="hero-slide">
-                            <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${'images/slider/1.jpg'})` }}>
+                            <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${'images/rbm.jpg'})` }}>
                                 <div className="container">
                                     <div className="slide-content">
-                                        <div className="wpo-hero-title-top">
-                                            <span>Ensuring Smooth Sailing and Efficiency.</span>
-                                        </div>
-                                        <div className="slide-title">
-                                            <h2>Comprehensive Marine Services</h2>
-                                        </div>
-                                        <div className="slide-text">
-                                            <p>Our expert team provides top-notch ship repair, workshop services, and essential supply provisions, ensuring your vessel operates seamlessly. Trust us for reliable bay pilotage, cargo surveys, and underwater inspections.</p>
-                                        </div>
-                                        <div className="clearfix"></div>
                                         <div className="slide-btns">
-                                            <Link href="/about" className="theme-btn">Get Started</Link>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="hero-slide">
-                            <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${'images/slider/2.jpg'})` }}>
-                                <div className="container">
-                                    <div className="slide-content">
-                                        <div className="wpo-hero-title-top">
-                                            <span>Your Trusted Partner in Marine Operations.</span>
-                                        </div>
-                                        <div className="slide-title">
-                                            <h2>Complete Vessel Management Solutions</h2>
-                                        </div>
-                                        <div className="slide-text">
-                                            <p>From technical management to crew manning, our comprehensive services cover all aspects of marine operations. Rely on us for safety equipment services, sludge removal, and efficient crew sign on/off procedures.</p>
-                                        </div>
-                                        <div className="clearfix"></div>
-                                        <div className="slide-btns">
-                                            <Link href="/about" className="theme-btn">Get Started</Link>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="hero-slide">
-                            <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${'images/slider/3.jpg'})` }}>
-                                <div className="container">
-                                    <div className="slide-content">
-                                        <div className="wpo-hero-title-top">
-                                            <span>Your Trusted Partner in Marine Operations.</span>
-                                        </div>
-                                        <div className="slide-title">
-                                            <h2>Complete Vessel Management Solutions</h2>
-                                        </div>
-                                        <div className="slide-text">
-                                            <p>From technical management to crew manning, our comprehensive services cover all aspects of marine operations. Rely on us for safety equipment services, sludge removal, and efficient crew sign on/off procedures.</p>
-                                        </div>
-                                        <div className="clearfix"></div>
-                                        <div className="slide-btns">
-                                            <Link href="/about" className="theme-btn">Get Started</Link>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="hero-slide">
-                            <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${'images/slider/4.jpg'})` }}>
-                                <div className="container">
-                                    <div className="slide-content">
-                                        <div className="wpo-hero-title-top">
-                                            <span>Your Trusted Partner in Marine Operations.</span>
-                                        </div>
-                                        <div className="slide-title">
-                                            <h2>Complete Vessel Management Solutions</h2>
-                                        </div>
-                                        <div className="slide-text">
-                                            <p>From technical management to crew manning, our comprehensive services cover all aspects of marine operations. Rely on us for safety equipment services, sludge removal, and efficient crew sign on/off procedures.</p>
-                                        </div>
-                                        <div className="clearfix"></div>
-                                        <div className="slide-btns">
-                                            <Link href="/about" className="theme-btn">Get Started</Link>
+                                            <Link href="/contact" className="theme-btn">Get Started</Link>
                                         </div>
                                     </div>
                                 </div>
