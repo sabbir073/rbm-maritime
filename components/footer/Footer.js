@@ -29,14 +29,14 @@ const Footer = (props) => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link target='_blank' href="https://wa.me/8801818130878777">
+                                        <Link target='_blank' href="https://wa.me/8801813087877">
                                             <i className="fa fa-whatsapp"></i>
                                         </Link>
                                     </li>
                                 </ul>
                                 <div className="mt-3">
-                                    <p><i className="fa fa-whatsapp"></i> WhatsApp: +880 1818-13087877</p>
-                                    <p><i className="fa fa-wechat"></i> WeChat: +880 1818-13087877</p>
+                                    <p><i className="fa fa-whatsapp"></i> WhatsApp: +8801813087877</p>
+                                    <p><i className="fa fa-wechat"></i> WeChat: +8801813087877</p>
                                 </div>
                             </div>
                         </div>
@@ -49,7 +49,7 @@ const Footer = (props) => {
                                     <ul>
                                         <li><i className="fi flaticon-location"></i><strong>Chattogram:</strong> IIUC Tower (11th Floor), Plot #9, Agrabad C/A, Sheikh Mujib Road, Chittagong-4100</li>
                                         <li><i className="fi flaticon-location"></i><strong>Dhaka:</strong> 506 Ar-Shajahan Tower (3rd floor), Shah Kabir Mazar Road, Azampur Railgate, Uttara, Dhaka-1230</li>
-                                        <li><i className="fi flaticon-phone-call"></i>+880 1818-13087877, +880 1841-576804, +880 1794-622066, +880 1894-442913, +880 1894-442918</li>
+                                        <li><i className="fi flaticon-phone-call"></i>+8801813087877, +880 1841-576804, +880 1794-622066, +880 1894-442913, +880 1894-442918</li>
                                         <li><i className="fi flaticon-send"></i>rbmmarineltd@gmail.com</li>
                                         <li><i className="fi flaticon-send"></i>info@rbmbd.com</li>
                                         <li><i className="fi flaticon-send"></i>cv@rbmbd.com (Seafarer CVs)</li>

@@ -81,14 +81,14 @@ const MobileMenu = () => {
 
                 <div className="mobile-menu-footer">
                     <div className="contact-info">
-                        <p><i className="ti-mobile"></i> +880 1818-130878</p>
+                        <p><i className="ti-mobile"></i> +8801813087877</p>
                         <p><i className="ti-email"></i> info@rbmbd.com</p>
                     </div>
                     <div className="social-links">
                         <Link href="https://www.facebook.com/rbmmaritime" target="_blank">
                             <i className="ti-facebook"></i>
                         </Link>
-                        <Link href="https://wa.me/8801818130878" target="_blank">
+                        <Link href="https://wa.me/8801813087877" target="_blank">
                             <i className="fa fa-whatsapp"></i>
                         </Link>
                     </div>

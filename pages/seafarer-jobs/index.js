@@ -73,7 +73,7 @@ const SeafarerJobs = () => {
                                             </div>
                                             <div className="office-info-text">
                                                 <h2>Call Now</h2>
-                                                <p>+880 1818-13087877</p>
+                                                <p>+8801813087877</p>
                                                 <p>+880 1841-576804</p>
                                                 <p>+880 1794-622066</p>
                                                 <p>+880 1894-442913</p>
@@ -87,8 +87,8 @@ const SeafarerJobs = () => {
                                         <div className="office-info-item">
                                             <div className="office-info-text text-center">
                                                 <h2>WhatsApp & WeChat</h2>
-                                                <p><i className="fa fa-whatsapp"></i> WhatsApp: +880 1818-13087877</p>
-                                                <p><i className="fa fa-wechat"></i> WeChat: +880 1818-13087877</p>
+                                                <p><i className="fa fa-whatsapp"></i> WhatsApp: +8801813087877</p>
+                                                <p><i className="fa fa-wechat"></i> WeChat: +8801813087877</p>
                                             </div>
                                         </div>
                                     </div>
